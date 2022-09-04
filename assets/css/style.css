@@ -1,0 +1,47 @@
+#topbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.content-container {
+	margin-top: 10rem;
+	margin-left: 20%;
+	margin-right:20%;
+	font-size: 20px;
+}
+
+.show {
+	display: flex;
+}
+
+
+
+.hide {
+	display: none;
+}
+
+#startGame {
+	align-items: center;
+	margin-left: 38%;
+	background-color: transparent;
+	border-radius: 28px;
+	border: 3px solid black;
+	font-size: 24px;
+	padding: 20px, 29px;
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#startGame:hover{
+	cursor: pointer;
+}
+
+
+
+
+img {
+	height: 5rem;
+}

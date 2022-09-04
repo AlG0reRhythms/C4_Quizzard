@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Quizzard</title>
+  </head>
+
+  <body>
+    <!-- container for top bar displaying welcome message, high score, and remaining time -->
+    <div id="topbar">
+      <div id="high-score-display">High score:</div>
+      <h2>
+        <img src="./assets/images/Logo.png" alt="" />Welcome to Quizzard!
+        <img src="./assets/images/Logo.png" alt="" />
+      </h2>
+      <div id="timer-display">Time left:</div>
+    </div>
+
+    <!-- container for the game init, question cards, and game over screen -->
+    <div class="content-container">
+      <div id="intro-container" class="show-intro">
+        <p>
+          Are you a fullstack development student who's tired of confusing the
+          terms method and function? Would you like to add an event listener for
+          when you've finally understood all the complexities of JavaScript?
+          Well, you're in luck! The quizzard has devised a little game to help
+          you do just that!
+        </p>
+        <button id="startGame">Commence the quizzening!</button>
+      </div>
+      <div id="card-container" class="hide"></div>
+    </div>
+  </body>
+
+  <script src="./assets/Javascript/script.js"></script>
+</html>
